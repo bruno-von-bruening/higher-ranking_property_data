@@ -17,6 +17,7 @@ dependencies:
   - pip
   - pip:
     - ipykernel # to run notebooks
+    - pyyaml # to load yaml files
     #   - setuptools-scm
     #   - build
     #   - pydantic

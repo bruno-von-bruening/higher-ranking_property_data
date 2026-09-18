@@ -1,0 +1,32 @@
+do_moments: false
+geom:
+  ac_shift: null
+  charge: 0
+  multiplicity: 1
+  xyz_file: ../H2.xyz
+job_settings:
+  delta_dip: 0.0001
+  delta_qad: 0.0001
+  do_moments: false
+jobtag: polarizability_finite_field
+machine_settings:
+  memory: 16.0_GB
+  num_threads: 4
+method:
+  basis_set: d-aug-cc-pvqz-wc3rfnh
+  cd_thres: 0.0001
+  convergence:
+    d_convergence: 1.0e-10
+    e_convergence: 1.0e-10
+    r_convergence: 1.0e-10
+  dft_opts:
+    radial_points: 99
+    radial_scheme: TREUTLER
+    spherical_points: 590
+    spherical_scheme: LEBEDEV
+  fno: false
+  fno_thres: 0
+  freeze_core: false
+  method_tag: ccsd(t)
+  reference: RHF
+  scf_type: df_aug-cc-pvqz-ri-wc3rfnh

@@ -21,7 +21,7 @@ def traceless_cartesian_to_spherical(prop, prop_type:recognized_prop_tags):
         ar=[ prop[-1], prop[0], prop[1]]
     elif prop_type==recognized_prop_tags.quadrupole.value:
         assert len(prop)==6
-        xx,xy,xz,yy,yz,zz=prop
+        xx,xy,yy,xz,yz,zz=prop
         sqr3=np.sqrt(3)
         ar= [
             3/2  * zz, 
@@ -32,7 +32,7 @@ def traceless_cartesian_to_spherical(prop, prop_type:recognized_prop_tags):
         ]
     elif prop_type==recognized_prop_tags.qqpol.value:
         assert len(prop)==6
-        xx,xy,xz,yy,yz,zz=prop
+        xx,xy,yy,xz,yz,zz=prop
         ar = [
             9/4* zz,
             3 * xz,

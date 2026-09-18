@@ -1,0 +1,164 @@
+about_the_run:
+  memory: 16.0 GB
+  num_threads: 4
+  resource_usage:
+    avr_loads:
+      idle:
+        system: 0.0
+        total: 0.0
+        user: 0.0
+      parallel:
+        system: 21.89883757837617
+        total: 315.6591935427852
+        user: 293.76035596440903
+      serial:
+        system: 0.0
+        total: 0.0
+        user: 0.0
+    avr_memory: 0.27663577686656604
+    clocked_time: 132.6722686290741
+    disk_usage:
+      disk_avr_in_GB: 0.07980073028893182
+      disk_max_in_GB: 0.08378968387842178
+      n: 67
+    max_loads:
+      cpu_system: 64.52090470396222
+      cpu_total: 342.14546645391727
+      cpu_user: 336.6671547639709
+    peak_memory: 0.28348541259765625
+    real_time: 132.68119478225708
+    time_ratios:
+      idle: 0.015172402699240585
+      parallel: 0.9847603221062782
+      serial: 0.0
+    times:
+      idle:
+        system: 0.0
+        total: 2.013092517852783
+        user: 0.0
+      parallel:
+        system: 28.62
+        total: 130.6591761112213
+        user: 383.82
+      serial:
+        system: 0.0
+        total: 0.0
+        user: 0.0
+  timings:
+    Total Time for POLARIZ-FF: 132.03320169448853
+    single_point: 132.0283908843994
+    total_run_time: 132.04878735542297
+files:
+  final_fchk: null
+results:
+  properties:
+    CCSD_MolMom_FinFie_through_eng:
+      x: 0.0
+      xx: -0.15233346
+      xy: 0.0
+      xz: 0.0
+      y: 0.0
+      yy: -0.15233345
+      yz: 0.0
+      z: 0.0
+      zz: 0.30466629
+    CCSD_MolPol_FinFie_through_dens: null
+    CCSD_MolPol_FinFie_through_eng:
+      x@x: 4.57935012
+      xx@xx: 6.52636447
+      xy@xy: 4.53016176
+      xz@xz: 5.60433935
+      y@y: 4.57934304
+      yy@yy: 6.52551151
+      yz@yz: 5.60433657
+      z@z: 6.40192539
+      zz@zz: 7.98476381
+    HF_MolMom_FinFie_through_eng:
+      x: 0.0
+      xx: -0.16487682
+      xy: 0.0
+      xz: 0.0
+      y: 0.0
+      yy: -0.1648768
+      yz: 0.0
+      z: 0.0
+      zz: 0.32975297
+    HF_MolPol_FinFie_through_dens: null
+    HF_MolPol_FinFie_through_eng:
+      x@x: 4.61004817
+      xx@xx: 6.71172964
+      xy@xy: 4.71203787
+      xz@xz: 5.67188814
+      y@y: 4.61004337
+      yy@yy: 6.71078721
+      yz@yz: 5.67188634
+      z@z: 6.45844085
+      zz@zz: 7.9980959
+    MP2_MolMom_FinFie_through_eng:
+      x: 0.0
+      xx: -0.15752327
+      xy: 0.0
+      xz: 0.0
+      y: 0.0
+      yy: -0.15752341
+      yz: 0.0
+      z: 0.0
+      zz: 0.31504642
+    MP2_MolPol_FinFie_through_dens: null
+    MP2_MolPol_FinFie_through_eng:
+      x@x: 4.58605256
+      xx@xx: 6.5853675
+      xy@xy: 4.59360541
+      xz@xz: 5.62260982
+      y@y: 4.58604008
+      yy@yy: 6.5857523
+      yz@yz: 5.62261995
+      z@z: 6.42726385
+      zz@zz: 7.9759557
+    MolMom_FinFie_through_eng:
+      x: 0.0
+      xx: -0.15233346
+      xy: 0.0
+      xz: 0.0
+      y: 0.0
+      yy: -0.15233345
+      yz: 0.0
+      z: 0.0
+      zz: 0.30466629
+    MolPol_FinFie_through_dens: null
+    MolPol_FinFie_through_eng:
+      x@x: 4.57935012
+      xx@xx: 6.52636447
+      xy@xy: 4.53016176
+      xz@xz: 5.60433935
+      y@y: 4.57934304
+      yy@yy: 6.52551151
+      yz@yz: 5.60433657
+      z@z: 6.40192539
+      zz@zz: 7.98476381
+    expansion_center:
+    - 0.0
+    - 0.0
+    - 0.7005214747072168
+settings:
+  basis: d-aug-cc-pvqz-wc3rfnh
+  cc_type: df
+  cholesky_tolerance: 0.0001
+  d_convergence: 1.0e-10
+  e_convergence: 1.0e-10
+  ff_val_dip: 0.0001
+  ff_val_qad: 0.0001
+  freeze_core: false
+  grac_correction: false
+  ip_tuning: false
+  maxiter: 100
+  method: CCSD(T)
+  mp2_type: df
+  nat_orbs: false
+  occ_tolerance: 0
+  properties:
+    did_fd_moms: false
+    did_zero_moms: false
+  r_convergence: 1.0e-10
+  reference: RHF
+  scf_type: df
